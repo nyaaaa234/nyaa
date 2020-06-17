@@ -1,0 +1,39 @@
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+body{
+    background: linear-gradient(to bottom, #343ed4 0%, #ff99cc 100%);
+
+}
+#sidebar{
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px; 
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    font-size: 25px;  
+    text-shadow: black;
+    font-family: monospace;
+}
+
+#sidebar a:hover {
+    background-color: rgb(253, 138, 253);
+    font-size: 27px;
+}
+
+img{
+    width: 70%;
+    height: 80%;
+    overflow: hidden;
+}
