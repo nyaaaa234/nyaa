@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - /bin/rm /home/hyperpha/public_html/*
+ - /bin/cp .* /home/hyperpha/public_html/
